@@ -20,3 +20,6 @@ function showTab(tabId) {
 document.addEventListener("DOMContentLoaded", function () {
     showTab('basic');
 });
+function toggleAdvancedSearch() {
+    document.getElementById("advancedSearch").classList.toggle("d-none");
+}
